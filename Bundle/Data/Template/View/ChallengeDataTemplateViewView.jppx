@@ -1,0 +1,22 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-08-08 11:12:48
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-28 14:23:05
+**************************************************************/
+
+class ChallengeDataTemplateViewView extends NamedDataDataTemplateViewView {
+
+	public _class = 'challenge';
+	public _elementType = 'Challenge';
+
+	public display : function () {
+		return <div>View Challenge</div>;
+	}
+
+}
