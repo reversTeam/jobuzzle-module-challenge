@@ -1,0 +1,25 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-08-08 11:12:48
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-28 14:47:29
+**************************************************************/
+
+class ChallengeDataTemplateTimelineView extends NamedDataDataTemplateTimelineView {
+
+	public display : function () {
+		var entity = this.state['entity'];
+
+		return (
+			<div className="challenge-display-timeline" data-url={this.getUrl()} onClick={this.link}>
+				{entity.getName()}
+			</div>
+		);
+	}
+
+}

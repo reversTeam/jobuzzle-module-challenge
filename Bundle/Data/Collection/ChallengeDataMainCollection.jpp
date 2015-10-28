@@ -1,0 +1,28 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-08-08 11:12:48
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-28 14:23:14
+**************************************************************/
+
+class ChallengeDataMainCollection extends NamedDataDataMainCollection {
+
+	_entityType = 'Challenge';
+	_entityClass = 'challenge_data_main_entity';
+
+	getProtected : function () {
+		if (this._protect == undefined) {
+			var parent = _super();
+			this._protect = parent.concat(
+				Config.modules.Challenge.collections.update.protect
+			);
+		}
+		return this._protect;
+	}
+
+}
