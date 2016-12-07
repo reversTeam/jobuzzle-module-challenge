@@ -7,10 +7,15 @@
 #       ## #     # #     # #     #    #       #    # #     #  #
 #       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
 #  ####### #     # #     # #     #  #       #      # #        #
-#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-09 14:11:05
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-21 15:23:20
 ###############################################################
 
 page:
 	title:
 		Challenges: Défis
 		view: '{{url}}'
+
+view:
+	actions:
+		edit: Éditer le défi
+		delete: Supprimer le défi

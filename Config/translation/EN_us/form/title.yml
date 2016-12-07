@@ -7,10 +7,11 @@
 #       ## #     # #     # #     #    #       #    # #     #  #
 #       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
 #  ####### #     # #     # #     #  #       #      # #        #
-#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-10-28 14:23:55
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-21 15:23:42
 ###############################################################
 
 challenge:
 	create: 'Create an challenge'
 	edit: 'Edit an challenge'
 	search : 'Search challenge'
+	delete: Delete challenge
